@@ -1,0 +1,128 @@
+/* Gaya dasar */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    background: linear-gradient(to right, #f3e6ff, #e6ccff);
+    color: #4a306d;
+    max-width: 1200px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+}
+
+.image-containerh {
+  text-align: center;
+}
+
+.image-containerh img {
+    width: 90%;
+    height: auto;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+}
+
+h3, p1 {
+    margin: 0 0 15px;
+}
+
+h1 {
+  margin: 15px 15px 15px;
+}
+
+h2 {
+    background: linear-gradient(135deg, #d1c4e9, #b39ddb); /* Gradient ungu muda */
+    padding: 10px 20px;
+    margin: 20px 0;
+    border-radius: 12px;
+    text-align: center;
+    color: #4a148c; /* Warna ungu tua */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+p {
+  margin-left: 10px;
+}
+
+/* Header */
+.gradient-header {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #b84eff, #a64dff);
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1rem;
+}
+
+/* Welcome Box */
+.welcome-box {
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border: 2px dashed #a64dff;
+    border-radius: 15px;
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Resep Section */
+.resep-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.resep-card {
+    background: white;
+    border: 2px solid #a64dff;
+    border-radius: 10px;
+    padding: 15px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+
+.resep-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.resep-card h3 {
+    margin-bottom: 10px;
+    color: #a64dff;
+}
+
+.resep-card p {
+    color: #4a306d;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #b84eff;
+    color: white;
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
